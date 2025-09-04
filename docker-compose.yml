@@ -72,7 +72,7 @@ services:
       - ./frontend:/app
       - /app/node_modules
     env_file:
-      - ./frontend/.env
+      - stack.env
     container_name: frontend
     ports:
       - "8080:8080"
